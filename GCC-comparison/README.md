@@ -52,7 +52,7 @@ system is entirely the same. I run a slightly smaller set of the benchmarks
 | bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc14 | 1.077x ↓[📄](bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc14-vs-bm-20250414-centurion-x86_64-python-NOGIL-3.14.md)[📈](bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc14-vs-bm-20250414-centurion-x86_64-python-NOGIL-3.14.svg)[🧠](bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc14-vs-bm-20250414-centurion-x86_64-python-NOGIL-3.14-mem.svg) |
 | bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc15 | 1.008x ↑[📄](bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc15-vs-bm-20250414-centurion-x86_64-python-NOGIL-3.14.md)[📈](bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc15-vs-bm-20250414-centurion-x86_64-python-NOGIL-3.14.svg)[🧠](bm-20250414-centurion-x86_64-python-NOGIL-3.14.0a7+-gcc15-vs-bm-20250414-centurion-x86_64-python-NOGIL-3.14-mem.svg) |
 
-# Regular versus Free-Threaded (same compiler)
+# Effect of `--disable-gil` (same compiler, baseline is `--enable-gil`)
 
 | commit | change |
 | -- | -- |
