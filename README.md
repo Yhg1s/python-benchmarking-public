@@ -65,7 +65,7 @@ version of Python with the GIL.
 The plot named "Effect of JIT" show the performance difference between a
 build with the [experimental JIT](https://peps.python.org/pep-0744/) and
 without it. I only ran one set of these manually, once, to verify the
-performance effect was the same for all compiler versions. I measure this
+performance effect was the same for all compiler versions. I may measure this
 more regularly in the future.
 
 The plots named "Effect of gcc versions" and "clang versions" show the
