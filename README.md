@@ -91,7 +91,8 @@ compare the same thing as the longitudinal "Python 3.14.x vs. 3.13.0" plot
 above: a result of 1.05x means that benchmark is 5% faster with 3.14.x than
 3.13.0. These individual plots are useful to evaluate the noisiness of
 individual benchmarks, as well as identifying consistent changes
-(performance improvements or regressions in Python).
+(performance improvements or regressions in Python). **Be careful comparing
+these plots by eye**, as they use different Y axes!
 
 ![Individual Benchmark Results](/benchmarks.svg)
 
