@@ -36,9 +36,10 @@ is _not_ built with `--disable-gil`. A result of 1.00x means that
 _free-threaded_ Python 3.14.x (built with that compiler) is just as fast as
 _regular_ Python 3.13.0 (built with the same compiler).
 
-The plots named "Python 3.15.x vs 3.14.0b1" and "Python 3.15.x (NOGIL) vs.
-3.14.0b1" are the same but compare "main" since the 3.14 branch was cut
-(which will be 3.15) against 3.14.0b1.
+The plots named "Python 3.15.x vs 3.13.0" and "Python 3.15.x (NOGIL) vs.
+3.13.0" are the same but compare "main" since the 3.14 branch was cut, which will be
+3.15. For easy tracking of long-term changes **it's still comparing against
+3.13.0.**
 
 ![Longitudinal speed improvement](/longitudinal.svg)
 
